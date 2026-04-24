@@ -137,3 +137,21 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- Python & AI Additions ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.ipynb_checkpoints/
+
+# --- Mac specific ---
+.DS_Store
+
+# --- Pokemon AI Data ---
+# We WANT to track best_brain.pth, but if you start saving 
+# hundreds of checkpoints, you might want to ignore them:
+# checkpoint_gen_*.pth
